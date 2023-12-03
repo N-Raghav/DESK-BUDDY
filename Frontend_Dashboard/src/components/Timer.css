@@ -1,0 +1,55 @@
+.App {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .TimerContainer {
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    align-content: center;
+  }
+  
+  .TimerDisplay {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .ButtonContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Button {
+    font-size: 1rem;
+    padding: 8px 16px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .StartButton {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .StopButton {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .ResetButton {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .TotalTime {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
