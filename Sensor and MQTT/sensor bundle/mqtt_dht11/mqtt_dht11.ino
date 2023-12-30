@@ -15,9 +15,9 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 //
-//#define wifi_ssid "kavin"
-//#define wifi_password "nghs3333"
-#define mqtt_server "192.168.135.253"    
+//#define wifi_ssid ""
+//#define wifi_password ""
+#define mqtt_server ""    
 
 #define humidity_topic "sensor/humidity"
 #define temperature_celsius_topic "sensor/temperature_celsius"
