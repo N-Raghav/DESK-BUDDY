@@ -17,7 +17,7 @@ DHT dht(DHTPIN, DHTTYPE);
 MQ135 mq135(MQ135_PIN);
 int ldrValue = 0;
 
-#define mqtt_server "192.168.135.253"
+#define mqtt_server ""
 #define humidity_topic "sensor/DHT11/humidity"
 #define temperature_celsius_topic "sensor/DHT11/temperature_celsius"
 #define temperature_fahrenheit_topic "sensor/DHT11/temperature_fahrenheit"
