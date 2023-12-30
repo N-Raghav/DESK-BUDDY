@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 # MQTT Configuration
-mqtt_broker_address = "192.168.135.253"  # Update with your MQTT broker's IP
+mqtt_broker_address = ""  # Update with your MQTT broker's IP
 mqtt_topics = {
     "humidity": "sensor/humidity",
     "temperature_celsius": "sensor/temperature_celsius",
