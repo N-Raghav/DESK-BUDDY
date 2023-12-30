@@ -27,8 +27,8 @@ int ldrValue = 0;
 WiFiClient espClient;
 PubSubClient client(espClient);
 
-char ssid[] = "kavin";
-char pass[] = "nghs3333";
+char ssid[] = "";
+char pass[] = "";
 
 void setup_wifi() {
   delay(10);
